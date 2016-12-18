@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:fitsSystemWindows="true">
+
+    <!-- Dialer Result Content -->
+    <include layout="@layout/viewgroup_dialer_result_content" />
+
+    <!-- Dialer Bottom Sheet -->
+    <include layout="@layout/viewgroup_dialer_bottom_sheet" />
+
+</android.support.design.widget.CoordinatorLayout>
